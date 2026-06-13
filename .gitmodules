@@ -1,0 +1,3 @@
+[submodule "envsensor/lib/ld2450"]
+	path = envsensor/lib/ld2450
+	url = https://github.com/besi/kicad-ld2450
