@@ -1,0 +1,7 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "New_Library") (type "KiCad") (uri "${KIPRJMOD}/New_Library.kicad_sym") (options "") (descr ""))
+	(lib (name "ld2450") (type "KiCad") (uri "/Users/niels/Documents/scripts/jaap/ENV-sensor-esp32/envsensor/lib/ld2450/ld2450.kicad_sym") (options "") (descr ""))
+	(lib (name "tinkerforge") (type "KiCad") (uri "/Users/niels/Documents/scripts/jaap/ENV-sensor-esp32/envsensor/lib/kicad-libraries/tinkerforge.kicad_sym") (options "") (descr ""))
+	(lib (name "bh1750") (type "KiCad") (uri "/Users/niels/Documents/scripts/jaap/ENV-sensor-esp32/envsensor/lib/bh1750/bh1750.kicad_sym") (options "") (descr ""))
+)
