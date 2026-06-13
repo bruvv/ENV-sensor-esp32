@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SSD1327_ZJY_M150")(type "KiCad")(uri "${KIPRJMOD}/SSD1327_ZJY_M150.kicad_sym")(options "")(descr "ZJY-M150 SSD1327 OLED module"))
+)

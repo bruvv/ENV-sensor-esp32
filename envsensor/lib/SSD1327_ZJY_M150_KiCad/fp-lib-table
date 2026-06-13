@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ZJY_M150_128x128_7P")(type "KiCad")(uri "${KIPRJMOD}/ZJY_M150_128x128_7P.pretty")(options "")(descr "ZJY-M150 1.5 inch SSD1327 OLED module"))
+)

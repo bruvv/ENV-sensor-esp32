@@ -47,7 +47,7 @@ See manufacturers [Mechanical Design and Assembly Guidelines](https://sensirion.
 
 - Can be placed everywhere
 
-## SSD1327 (Screen)
+## ZJY-M150-128x128-7P SSD1327 (Screen)
 [Datasheet](https://www.waveshare.com/w/upload/a/ac/SSD1327-datasheet.pdf)
 
 - Works great!

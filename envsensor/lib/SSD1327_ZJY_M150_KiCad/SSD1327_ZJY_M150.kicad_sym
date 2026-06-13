@@ -1,0 +1,238 @@
+(kicad_symbol_lib
+  (version 20231120)
+  (generator chatgpt)
+  (symbol "ZJY_M150_128x128_7P"
+    (pin_names
+      (offset 1.016)
+    )
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U"
+      (at 0 12.7 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Value" "ZJY_M150_128x128_7P"
+      (at 0 10.16 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property "Footprint" "ZJY_M150_128x128_7P:ZJY_M150_128x128_7P"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        hide
+      )
+    )
+    (property "Datasheet" "ZJY150S0700WG01"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        hide
+      )
+    )
+    (property "Description" "1.5 inch 128x128 monochrome OLED module, SSD1327, SPI/I2C, 7-pin"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        hide
+      )
+    )
+    (property "ki_keywords" "OLED display SSD1327 128x128 SPI I2C ZJY-M150"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        hide
+      )
+    )
+    (property "ki_fp_filters" "ZJY*M150*128x128*7P*"
+      (at 0 0 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        hide
+      )
+    )
+    (symbol "ZJY_M150_128x128_7P_0_1"
+      (rectangle
+        (start -10.16 8.89)
+        (end 10.16 -8.89)
+        (stroke
+          (width 0)
+          (type default)
+        )
+        (fill
+          (type background)
+        )
+      )
+      (text "1.5in OLED"
+        (at 0 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (text "128x128 / SSD1327"
+        (at 0 1.27 0)
+        (effects
+          (font
+            (size 1.016 1.016)
+          )
+        )
+      )
+      (text "SPI / I2C"
+        (at 0 -1.27 0)
+        (effects
+          (font
+            (size 1.016 1.016)
+          )
+        )
+      )
+    )
+    (symbol "ZJY_M150_128x128_7P_1_1"
+      (pin power_in line
+        (at -12.7 6.35 0)
+        (length 2.54)
+        (name "GND"
+          (effects
+            (font
+              (size 1.27 1.27)
+            )
+          )
+        )
+        (number "1"
+          (effects
+            (font
+              (size 1.27 1.27)
+            )
+          )
+        )
+      )
+      (pin power_in line
+        (at -12.7 3.81 0)
+        (length 2.54)
+        (name "VCC"
+          (effects
+            (font
+              (size 1.27 1.27)
+            )
+          )
+        )
+        (number "2"
+          (effects
+            (font
+              (size 1.27 1.27)
+            )
+          )
+        )
+      )
+      (pin input line
+        (at -12.7 1.27 0)
+        (length 2.54)
+        (name "SCL"
+          (effects
+            (font
+              (size 1.27 1.27)
+            )
+          )
+        )
+        (number "3"
+          (effects
+            (font
+              (size 1.27 1.27)
+            )
+          )
+        )
+      )
+      (pin bidirectional line
+        (at -12.7 -1.27 0)
+        (length 2.54)
+        (name "SDA"
+          (effects
+            (font
+              (size 1.27 1.27)
+            )
+          )
+        )
+        (number "4"
+          (effects
+            (font
+              (size 1.27 1.27)
+            )
+          )
+        )
+      )
+      (pin input line
+        (at 12.7 3.81 180)
+        (length 2.54)
+        (name "RES"
+          (effects
+            (font
+              (size 1.27 1.27)
+            )
+          )
+        )
+        (number "5"
+          (effects
+            (font
+              (size 1.27 1.27)
+            )
+          )
+        )
+      )
+      (pin input line
+        (at 12.7 1.27 180)
+        (length 2.54)
+        (name "DC"
+          (effects
+            (font
+              (size 1.27 1.27)
+            )
+          )
+        )
+        (number "6"
+          (effects
+            (font
+              (size 1.27 1.27)
+            )
+          )
+        )
+      )
+      (pin input line
+        (at 12.7 -1.27 180)
+        (length 2.54)
+        (name "CS"
+          (effects
+            (font
+              (size 1.27 1.27)
+            )
+          )
+        )
+        (number "7"
+          (effects
+            (font
+              (size 1.27 1.27)
+            )
+          )
+        )
+      )
+    )
+  )
+)
