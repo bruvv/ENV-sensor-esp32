@@ -485,9 +485,7 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [
-      "Library"
-    ],
+    "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -663,7 +661,7 @@
         "uuid": "25253396-27a9-4c4a-8cbd-92390287bfc3"
       }
     ],
-    "used_designators": "U5",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

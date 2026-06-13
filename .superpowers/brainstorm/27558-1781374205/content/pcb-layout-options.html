@@ -1,0 +1,58 @@
+<h2>PCB-indeling 52 × 70 mm</h2>
+<p class="subtitle">Klik voorkeursrichting. Blauw = voorkant, paars = achterkant.</p>
+
+<div class="cards">
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding:18px;display:flex;gap:18px;justify-content:center;background:#f7f9fc">
+      <div>
+        <div class="label">Voorkant</div>
+        <div style="width:156px;height:210px;border:3px solid #26364a;border-radius:8px;position:relative;background:#eaf4ff">
+          <div style="position:absolute;left:11px;top:10px;width:134px;height:111px;background:#367bc4;color:white;border-radius:5px;display:flex;align-items:center;justify-content:center;font-weight:700">SSD1327</div>
+          <div style="position:absolute;left:48px;top:126px;width:60px;height:38px;background:#79aee4;color:#10263b;border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700">BH1750</div>
+          <div style="position:absolute;left:7px;bottom:7px;width:142px;height:34px;background:#225b91;color:white;border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700">LD2450 → kamer</div>
+        </div>
+      </div>
+      <div>
+        <div class="label">Achterkant</div>
+        <div style="width:156px;height:210px;border:3px solid #26364a;border-radius:8px;position:relative;background:#f2edff">
+          <div style="position:absolute;left:9px;top:9px;width:76px;height:184px;background:#7659b7;color:white;border-radius:5px;display:flex;align-items:center;justify-content:center;writing-mode:vertical-rl;font-weight:700">ESP32-S3</div>
+          <div style="position:absolute;right:8px;top:9px;width:56px;height:102px;background:#9a83d0;color:white;border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700">SCD30</div>
+          <div style="position:absolute;right:8px;top:119px;width:56px;height:35px;background:#b7a7dc;color:#281e42;border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700">MS5611</div>
+          <div style="position:absolute;right:8px;bottom:8px;width:56px;height:26px;background:#d0c5e8;color:#281e42;border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700">SEN55 JST</div>
+          <div style="position:absolute;left:20px;bottom:-9px;width:54px;height:14px;background:#222;color:white;border-radius:3px;font-size:9px;text-align:center">USB</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A. USB onder, SEN55 onder</h3>
+      <p>Aanbevolen. Alle kabels aan één korte zijde. Eenvoudige behuizing en routing.</p>
+    </div>
+  </div>
+
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image" style="padding:18px;display:flex;gap:18px;justify-content:center;background:#f7f9fc">
+      <div>
+        <div class="label">Voorkant</div>
+        <div style="width:156px;height:210px;border:3px solid #26364a;border-radius:8px;position:relative;background:#eaf4ff">
+          <div style="position:absolute;left:11px;top:10px;width:134px;height:111px;background:#367bc4;color:white;border-radius:5px;display:flex;align-items:center;justify-content:center;font-weight:700">SSD1327</div>
+          <div style="position:absolute;left:48px;top:126px;width:60px;height:38px;background:#79aee4;color:#10263b;border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700">BH1750</div>
+          <div style="position:absolute;left:7px;bottom:7px;width:142px;height:34px;background:#225b91;color:white;border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700">LD2450 → kamer</div>
+        </div>
+      </div>
+      <div>
+        <div class="label">Achterkant</div>
+        <div style="width:156px;height:210px;border:3px solid #26364a;border-radius:8px;position:relative;background:#f2edff">
+          <div style="position:absolute;right:9px;top:9px;width:76px;height:184px;background:#7659b7;color:white;border-radius:5px;display:flex;align-items:center;justify-content:center;writing-mode:vertical-rl;font-weight:700">ESP32-S3</div>
+          <div style="position:absolute;left:8px;top:9px;width:56px;height:102px;background:#9a83d0;color:white;border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:700">SCD30</div>
+          <div style="position:absolute;left:8px;top:119px;width:56px;height:35px;background:#b7a7dc;color:#281e42;border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700">MS5611</div>
+          <div style="position:absolute;left:-9px;bottom:8px;width:72px;height:26px;background:#d0c5e8;color:#281e42;border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700">SEN55 JST ←</div>
+          <div style="position:absolute;right:20px;top:-9px;width:54px;height:14px;background:#222;color:white;border-radius:3px;font-size:9px;text-align:center">USB</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B. USB boven, SEN55 zijkant</h3>
+      <p>Kabels gescheiden. Handig wanneer SEN55 naast de print en USB boven zit.</p>
+    </div>
+  </div>
+</div>
