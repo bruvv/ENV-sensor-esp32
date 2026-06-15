@@ -16,7 +16,7 @@ Consists off the following sensors:
 | SEN55    |   5   | 110 |     |     |
 | MS5611   |  3.3  | >1  |     |     |
 | SSD1327  |  3.3  | ~50 |     |     |
-| BH1750   |   5   | >1  |     |     |
+| BH1750   |  3.3  | >1  |     |     |
 
 # Considerations per sensor
 Each sensor has requirements in order to give reliable readings. These are summarized below:

@@ -4,4 +4,5 @@
 	(lib (name "kicad-libraries") (type "KiCad") (uri "/Users/niels/Documents/scripts/jaap/ENV-sensor-esp32/envsensor/lib/kicad-libraries") (options "") (descr ""))
 	(lib (name "ld2450") (type "KiCad") (uri "/Users/niels/Documents/scripts/jaap/ENV-sensor-esp32/envsensor/lib/ld2450/ld2450.pretty") (options "") (descr ""))
 	(lib (name "bh1750") (type "KiCad") (uri "/Users/niels/Documents/scripts/jaap/ENV-sensor-esp32/envsensor/lib/bh1750/bh1750.pretty") (options "") (descr ""))
+	(lib (name "ZJY_M150") (type "KiCad") (uri "${KIPRJMOD}/lib/SSD1327_ZJY_M150_KiCad/ZJY_M150_128x128_7P.pretty") (options "") (descr ""))
 )
